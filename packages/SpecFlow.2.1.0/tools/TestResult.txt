@@ -1,0 +1,42 @@
+=> AutomationPOC.FeatureFiles.BuyASetPlanFeature.BuyingASETFuneralPlanUsingDirectDebit("Chrome","SetBurialPlan","Simple","Mr","Holly1","Cave","Male","5","January","1965","A","B","1234567","6.33174913070283E+17","password1","password1","Testing","3036","7","1","16",null)
+Given I am on the Home page using Chrome
+-> done: StepDefinition1.GivenIAmOnTheHomePageUsing("Chrome") (14.3s)
+When I click Prepaid Funeral Plan
+-> done: StepDefinition1.WhenIClickPrepaidFuneralPlan() (9.5s)
+And Set Funeral Plan As SetBurialPlan Simple
+-> done: StepDefinition1.WhenSetFuneralPlanAs("SetBurialPlan", "Simple") (10.1s)
+And creates New account and provide user details Mr Holly1 Cave Male 5 January 1965
+-> done: StepDefinition1.WhenCreatesNewAccountAndProvideUserDetails("Mr", "Holly1", "Cave", "Male", "5", "January", "1965") (1.5s)
+And user provides Address Details A B
+-> done: StepDefinition1.WhenUserProvidesAddressDetails("A", "B") (1.0s)
+And provides 1234567 6.33174913070283E+17 password1 password1
+-> done: StepDefinition1.WhenProvides("1234567", "6.33174913070283E+17", "password1", "password1") (13.0s)
+And user provides the Direct-Debit payment Details Testing 3036 7 1 16
+-> done: StepDefinition1.WhenUserProvidesTheDirect_DebitPaymentDetails("Testing", "3036", "7", "1", "16") (6.5s)
+Then Order Confirmation Page is displayed along with the Plan Number
+-> error: chrome not reachable
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 10.0.14393 x86_64) (100)
+Test Completed Succesfully
+=> AutomationPOC.FeatureFiles.BuyASetPlanFeature.BuyingASETFuneralPlanUsingFMP("Chrome","SetBurialPlan","Simple","Mr","Ben1","Cave","Male","5","January","1965","A","B","1234567","6.33174913070283E+17","password1","password1","Testing","3036","7","1","16",null)
+Given I am on the Home page using Chrome
+-> done: StepDefinition1.GivenIAmOnTheHomePageUsing("Chrome") (11.8s)
+When I click Prepaid Funeral Plan
+-> done: StepDefinition1.WhenIClickPrepaidFuneralPlan() (9.3s)
+And Set Funeral Plan As SetBurialPlan Simple
+-> done: StepDefinition1.WhenSetFuneralPlanAs("SetBurialPlan", "Simple") (7.8s)
+And creates New account and provide user details Mr Ben1 Cave Male 5 January 1965
+-> done: StepDefinition1.WhenCreatesNewAccountAndProvideUserDetails("Mr", "Ben1", "Cave", "Male", "5", "January", "1965") (1.5s)
+And user provides Address Details A B
+-> done: StepDefinition1.WhenUserProvidesAddressDetails("A", "B") (1.5s)
+And provides 1234567 6.33174913070283E+17 password1 password1
+-> done: StepDefinition1.WhenProvides("1234567", "6.33174913070283E+17", "password1", "password1") (10.2s)
+And user provides FMP payment Details Testing <AccountNUmber> 7 <Sortcode2> <Sortcode3>
+-> done: StepDefinition1.WhenUserProvidesFMPPaymentDetails("Testing", "<AccountNUmber>", "7", "<Sortcode2>", "<Sortcode3>") (3.7s)
+Then Order Confirmation Page is displayed along with the Plan Number
+-> error:   Expected string length 45 but was 42. Strings differ at index 0.
+  Expected: "Purchase your  Simple Burial Set Funeral Plan"
+  But was:  "Your Funeral Plan purchase is now complete"
+  -----------^
+
+Test Completed Succesfully

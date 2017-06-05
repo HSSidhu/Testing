@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-run id="2" testcasecount="2" result="Failed" total="2" passed="0" failed="2" inconclusive="0" skipped="0" asserts="1" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2017-04-10 10:07:12Z" end-time="2017-04-10 10:07:54Z" duration="42.774782">
+  <command-line><![CDATA[F:\DESKTOP\MySeleniumData\Automation-POC\packages\NUnit.ConsoleRunner.3.5.0\tools\nunit3-console.exe  --labels=All --out=TestResult.txt "--result=F:\DESKTOP\MySeleniumData\Automation-POC\OpenURL01\ALLReports\TestResult.xml;format=nunit3" F:\DESKTOP\\MySeleniumData\Automation-POC\OpenURL01\bin\Debug\AutomationPOC.dll]]></command-line>
+  <test-suite type="Assembly" id="0-1007" name="AutomationPOC.dll" fullname="F:\DESKTOP\MySeleniumData\Automation-POC\OpenURL01\bin\Debug\AutomationPOC.dll" runstate="Runnable" testcasecount="2" result="Failed" site="Child" start-time="2017-04-10 10:07:12Z" end-time="2017-04-10 10:07:54Z" duration="42.611312" total="2" passed="0" failed="2" inconclusive="0" skipped="0" asserts="1">
+    <environment framework-version="3.4.1.0" clr-version="4.0.30319.42000" os-version="Microsoft Windows NT 10.0.14393.0" platform="Win32NT" cwd="C:\WINDOWS\system32" machine-name="ACE" user="HS" user-domain="ACE" culture="en-GB" uiculture="en-GB" os-architecture="x64" />
+    <settings>
+      <setting name="DisposeRunners" value="True" />
+      <setting name="WorkDirectory" value="C:\WINDOWS\system32" />
+      <setting name="ImageRuntimeVersion" value="4.0.30319" />
+      <setting name="ImageTargetFrameworkName" value=".NETFramework,Version=v4.5.2" />
+      <setting name="ImageRequiresX86" value="False" />
+      <setting name="ImageRequiresDefaultAppDomainAssemblyResolver" value="False" />
+      <setting name="NumberOfTestWorkers" value="4" />
+    </settings>
+    <properties>
+      <property name="_PID" value="33552" />
+      <property name="_APPDOMAIN" value="test-domain-" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="TestSuite" id="0-1008" name="AutomationPOC" fullname="AutomationPOC" runstate="Runnable" testcasecount="2" result="Failed" site="Child" start-time="2017-04-10 10:07:12Z" end-time="2017-04-10 10:07:54Z" duration="42.473275" total="2" passed="0" failed="2" inconclusive="0" skipped="0" asserts="1">
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestSuite" id="0-1010" name="FeatureFiles" fullname="AutomationPOC.FeatureFiles" runstate="Runnable" testcasecount="2" result="Failed" site="Child" start-time="2017-04-10 10:07:12Z" end-time="2017-04-10 10:07:54Z" duration="42.395207" total="2" passed="0" failed="2" inconclusive="0" skipped="0" asserts="1">
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="TestFixture" id="0-1001" name="BuyASetPlanFeature" fullname="AutomationPOC.FeatureFiles.BuyASetPlanFeature" classname="AutomationPOC.FeatureFiles.BuyASetPlanFeature" runstate="Runnable" testcasecount="2" result="Failed" site="Child" start-time="2017-04-10 10:07:12Z" end-time="2017-04-10 10:07:54Z" duration="42.319895" total="2" passed="0" failed="2" inconclusive="0" skipped="0" asserts="1">
+          <properties>
+            <property name="Description" value="Buy A Set Plan" />
+          </properties>
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-suite type="ParameterizedMethod" id="0-1005" name="BuyingASETFuneralPlanUsingDirectDebit" fullname="AutomationPOC.FeatureFiles.BuyASetPlanFeature.BuyingASETFuneralPlanUsingDirectDebit" classname="AutomationPOC.FeatureFiles.BuyASetPlanFeature" runstate="Runnable" testcasecount="1" result="Failed" site="Child" start-time="2017-04-10 10:07:13Z" end-time="2017-04-10 10:07:43Z" duration="29.454436" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="1">
+            <properties>
+              <property name="Description" value="Buying a SET Funeral Plan using DirectDebit" />
+            </properties>
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-case id="0-1004" name="BuyingASETFuneralPlanUsingDirectDebit(&quot;Chrome&quot;,&quot;SetBurialPlan&quot;,&quot;Simple&quot;,&quot;Mr&quot;,&quot;Holly1&quot;,&quot;Cave&quot;,&quot;Male&quot;,&quot;5&quot;,&quot;January&quot;,&quot;1965&quot;,&quot;A&quot;,&quot;B&quot;,&quot;1234567&quot;,&quot;6.33174913070283E+17&quot;,&quot;password1&quot;,&quot;password1&quot;,&quot;Testing&quot;,&quot;3036&quot;,&quot;7&quot;,&quot;1&quot;,&quot;16&quot;,null)" fullname="AutomationPOC.FeatureFiles.BuyASetPlanFeature.BuyingASETFuneralPlanUsingDirectDebit(&quot;Chrome&quot;,&quot;SetBurialPlan&quot;,&quot;Simple&quot;,&quot;Mr&quot;,&quot;Holly1&quot;,&quot;Cave&quot;,&quot;Male&quot;,&quot;5&quot;,&quot;January&quot;,&quot;1965&quot;,&quot;A&quot;,&quot;B&quot;,&quot;1234567&quot;,&quot;6.33174913070283E+17&quot;,&quot;password1&quot;,&quot;password1&quot;,&quot;Testing&quot;,&quot;3036&quot;,&quot;7&quot;,&quot;1&quot;,&quot;16&quot;,null)" methodname="BuyingASETFuneralPlanUsingDirectDebit" classname="AutomationPOC.FeatureFiles.BuyASetPlanFeature" runstate="Runnable" seed="1790311532" result="Failed" label="Error" start-time="2017-04-10 10:07:14Z" end-time="2017-04-10 10:07:43Z" duration="29.423045" asserts="1">
+              <properties>
+                <property name="Category" value="source:FMPTestData.xlsx:sheet2" />
+              </properties>
+              <failure>
+                <message><![CDATA[OpenQA.Selenium.NoSuchWindowException : no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 10.0.14393 x86_64)]]></message>
+                <stack-trace><![CDATA[   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenURL01.Page.YourDetailsPage.get_Title() in F:\DESKTOP\My Selenium Data\Automation POC\OpenURL01\Page\BuyingAPlan\YourDetailsPage.cs:line 19
+   at OpenURL01.Step_Definitions.StepDefinition1.WhenCreatesNewAccountAndProvideUserDetails(String Title, String FirstName, String LastName, String GenderMale, String BirthDate, String BirthMonth, String BirthYear) in F:\DESKTOP\My Selenium Data\Automation POC\OpenURL01\Step Definitions\StepDefinition1.cs:line 75
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(StepInstance stepInstance)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()
+   at AutomationPOC.FeatureFiles.BuyASetPlanFeature.ScenarioCleanup()
+   at AutomationPOC.FeatureFiles.BuyASetPlanFeature.BuyingASETFuneralPlanUsingDirectDebit(String browser, String burialType, String planType, String title, String firstName, String lastName, String gender, String birthDate, String birthMonth, String birthYear, String houseNumber, String postCode, String phoneNumber, String coopMemNumber, String password, String confirmPassword, String accountName, String accountNumber, String sortCode1, String sortCode2, String sortCode3, String[] exampleTags) in F:\DESKTOP\My Selenium Data\Automation POC\OpenURL01\FeatureFiles\BuySetPlanAllSteps.feature:line 26]]></stack-trace>
+              </failure>
+              <output><![CDATA[Given I am on the Home page using Chrome
+-> done: StepDefinition1.GivenIAmOnTheHomePageUsing("Chrome") (14.4s)
+When I click Prepaid Funeral Plan
+-> done: StepDefinition1.WhenIClickPrepaidFuneralPlan() (7.5s)
+And Set Funeral Plan As SetBurialPlan Simple
+-> done: StepDefinition1.WhenSetFuneralPlanAs("SetBurialPlan", "Simple") (6.7s)
+And creates New account and provide user details Mr Holly1 Cave Male 5 January 1965
+-> error: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 10.0.14393 x86_64)
+And user provides Address Details A B
+-> skipped because of previous errors
+And provides 1234567 6.33174913070283E+17 password1 password1
+-> skipped because of previous errors
+And user provides the Direct-Debit payment Details Testing 3036 7 1 16
+-> skipped because of previous errors
+Then Order Confirmation Page is displayed along with the Plan Number
+-> skipped because of previous errors
+Test Completed Succesfully
+]]></output>
+            </test-case>
+          </test-suite>
+          <test-suite type="ParameterizedMethod" id="0-1003" name="BuyingASETFuneralPlanUsingFMP" fullname="AutomationPOC.FeatureFiles.BuyASetPlanFeature.BuyingASETFuneralPlanUsingFMP" classname="AutomationPOC.FeatureFiles.BuyASetPlanFeature" runstate="Runnable" testcasecount="1" result="Failed" site="Child" start-time="2017-04-10 10:07:43Z" end-time="2017-04-10 10:07:54Z" duration="11.229162" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+            <properties>
+              <property name="Description" value="Buying a SET Funeral Plan using FMP" />
+            </properties>
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-case id="0-1002" name="BuyingASETFuneralPlanUsingFMP(&quot;Chrome&quot;,&quot;SetBurialPlan&quot;,&quot;Simple&quot;,&quot;Mr&quot;,&quot;Ben1&quot;,&quot;Cave&quot;,&quot;Male&quot;,&quot;5&quot;,&quot;January&quot;,&quot;1965&quot;,&quot;A&quot;,&quot;B&quot;,&quot;1234567&quot;,&quot;6.33174913070283E+17&quot;,&quot;password1&quot;,&quot;password1&quot;,&quot;Testing&quot;,&quot;3036&quot;,&quot;7&quot;,&quot;1&quot;,&quot;16&quot;,null)" fullname="AutomationPOC.FeatureFiles.BuyASetPlanFeature.BuyingASETFuneralPlanUsingFMP(&quot;Chrome&quot;,&quot;SetBurialPlan&quot;,&quot;Simple&quot;,&quot;Mr&quot;,&quot;Ben1&quot;,&quot;Cave&quot;,&quot;Male&quot;,&quot;5&quot;,&quot;January&quot;,&quot;1965&quot;,&quot;A&quot;,&quot;B&quot;,&quot;1234567&quot;,&quot;6.33174913070283E+17&quot;,&quot;password1&quot;,&quot;password1&quot;,&quot;Testing&quot;,&quot;3036&quot;,&quot;7&quot;,&quot;1&quot;,&quot;16&quot;,null)" methodname="BuyingASETFuneralPlanUsingFMP" classname="AutomationPOC.FeatureFiles.BuyASetPlanFeature" runstate="Runnable" seed="2146350700" result="Failed" label="Error" start-time="2017-04-10 10:07:43Z" end-time="2017-04-10 10:07:54Z" duration="11.223092" asserts="0">
+              <properties>
+                <property name="Category" value="source:FMPTestData.xlsx:sheet1" />
+              </properties>
+              <failure>
+                <message><![CDATA[System.InvalidOperationException : session not created exception
+from chrome not reachable
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 10.0.14393 x86_64) (33)]]></message>
+                <stack-trace><![CDATA[   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.StartSession(ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Remote.RemoteWebDriver..ctor(ICommandExecutor commandExecutor, ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(String chromeDriverDirectory, ChromeOptions options)
+   at OpenURL01.GeneralHelpers.AutomationDriver.InitiliseRemoteWebDriver(String BrowserName) in F:\DESKTOP\My Selenium Data\Automation POC\OpenURL01\GeneralHelpers\AutomationDriver.cs:line 42
+   at OpenURL01.Step_Definitions.StepDefinition1.GivenIAmOnTheHomePageUsing(String testBrowser) in F:\DESKTOP\My Selenium Data\Automation POC\OpenURL01\Step Definitions\StepDefinition1.cs:line 24
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(StepInstance stepInstance)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()
+   at AutomationPOC.FeatureFiles.BuyASetPlanFeature.ScenarioCleanup()
+   at AutomationPOC.FeatureFiles.BuyASetPlanFeature.BuyingASETFuneralPlanUsingFMP(String browser, String burialType, String planType, String title, String firstName, String lastName, String gender, String birthDate, String birthMonth, String birthYear, String houseNumber, String postCode, String phoneNumber, String coopMemNumber, String password, String confirmPassword, String accountName, String accountNumber, String sortCode1, String sortCode2, String sortCode3, String[] exampleTags) in F:\DESKTOP\My Selenium Data\Automation POC\OpenURL01\FeatureFiles\BuySetPlanAllSteps.feature:line 11]]></stack-trace>
+              </failure>
+              <output><![CDATA[Given I am on the Home page using Chrome
+-> error: session not created exception
+from chrome not reachable
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 10.0.14393 x86_64) (33)
+When I click Prepaid Funeral Plan
+-> skipped because of previous errors
+And Set Funeral Plan As SetBurialPlan Simple
+-> skipped because of previous errors
+And creates New account and provide user details Mr Ben1 Cave Male 5 January 1965
+-> skipped because of previous errors
+And user provides Address Details A B
+-> skipped because of previous errors
+And provides 1234567 6.33174913070283E+17 password1 password1
+-> skipped because of previous errors
+And user provides FMP payment Details Testing <AccountNUmber> 7 <Sortcode2> <Sortcode3>
+-> skipped because of previous errors
+Then Order Confirmation Page is displayed along with the Plan Number
+-> skipped because of previous errors
+Test Completed Succesfully
+]]></output>
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+      <test-suite type="TestSuite" id="0-1009" name="SeleniumGrid" fullname="AutomationPOC.SeleniumGrid" runstate="Runnable" testcasecount="0" result="Passed" start-time="2017-04-10 10:07:12Z" end-time="2017-04-10 10:07:54Z" duration="42.426316" total="0" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <test-suite type="TestFixture" id="0-1000" name="Driver" fullname="AutomationPOC.SeleniumGrid.Driver" classname="AutomationPOC.SeleniumGrid.Driver" runstate="Runnable" testcasecount="0" result="Passed" start-time="2017-04-10 10:07:54Z" end-time="2017-04-10 10:07:54Z" duration="0.000241" total="0" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0" />
+      </test-suite>
+    </test-suite>
+    <test-suite type="TestSuite" id="0-1011" name="OpenURL01" fullname="OpenURL01" runstate="Runnable" testcasecount="0" result="Passed" start-time="2017-04-10 10:07:12Z" end-time="2017-04-10 10:07:54Z" duration="42.489175" total="0" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <test-suite type="TestSuite" id="0-1012" name="GeneralHelpers" fullname="OpenURL01.GeneralHelpers" runstate="Runnable" testcasecount="0" result="Passed" start-time="2017-04-10 10:07:12Z" end-time="2017-04-10 10:07:54Z" duration="42.457723" total="0" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <test-suite type="TestFixture" id="0-1006" name="BasicReport" fullname="OpenURL01.GeneralHelpers.BasicReport" classname="OpenURL01.GeneralHelpers.BasicReport" runstate="Runnable" testcasecount="0" result="Passed" start-time="2017-04-10 10:07:54Z" end-time="2017-04-10 10:07:54Z" duration="0.000258" total="0" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0" />
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

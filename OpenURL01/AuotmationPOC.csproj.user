@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectView>ProjectFiles</ProjectView>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <StartAction>Program</StartAction>
+    <StartProgram>D:\ALL-Projects\BuySetPlan-WithReports\packages\TestRunner.1.2.0\tools\TestRunner.exe</StartProgram>
+    <StartArguments>AutomationPOC.dll</StartArguments>
+    <StartWorkingDirectory>D:\ALL-Projects\BuySetPlan-WithReports\OpenURL01\bin\Debug\</StartWorkingDirectory>
+  </PropertyGroup>
+</Project>

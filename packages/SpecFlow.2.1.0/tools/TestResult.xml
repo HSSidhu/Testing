@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-run id="2" testcasecount="2" result="Passed" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="9" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2017-04-12 11:44:23Z" end-time="2017-04-12 11:46:31Z" duration="128.065655">
+  <command-line><![CDATA[F:\DESKTOP\MySeleniumData\Automation-POC\packages\NUnit.ConsoleRunner.3.5.0\tools\nunit3-console.exe  --labels=All --out=TestResult.txt "--result=F:\DESKTOP\MySeleniumData\Automation-POC\packages\SpecFlow.2.1.0\tools\TestResult.xml;format=nunit3" F:\DESKTOP\\MySeleniumData\Automation-POC\OpenURL01\bin\Debug\AutomationPOC.dll]]></command-line>
+  <test-suite type="Assembly" id="0-1007" name="AutomationPOC.dll" fullname="F:\DESKTOP\MySeleniumData\Automation-POC\OpenURL01\bin\Debug\AutomationPOC.dll" runstate="Runnable" testcasecount="2" result="Passed" start-time="2017-04-12 11:44:23Z" end-time="2017-04-12 11:46:31Z" duration="127.921962" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="9">
+    <environment framework-version="3.4.1.0" clr-version="4.0.30319.42000" os-version="Microsoft Windows NT 10.0.14393.0" platform="Win32NT" cwd="C:\WINDOWS\system32" machine-name="ACE" user="HS" user-domain="ACE" culture="en-GB" uiculture="en-GB" os-architecture="x64" />
+    <settings>
+      <setting name="DisposeRunners" value="True" />
+      <setting name="WorkDirectory" value="C:\WINDOWS\system32" />
+      <setting name="ImageRuntimeVersion" value="4.0.30319" />
+      <setting name="ImageTargetFrameworkName" value=".NETFramework,Version=v4.5.2" />
+      <setting name="ImageRequiresX86" value="False" />
+      <setting name="ImageRequiresDefaultAppDomainAssemblyResolver" value="False" />
+      <setting name="NumberOfTestWorkers" value="4" />
+    </settings>
+    <properties>
+      <property name="_PID" value="23304" />
+      <property name="_APPDOMAIN" value="test-domain-" />
+    </properties>
+    <test-suite type="TestSuite" id="0-1008" name="AutomationPOC" fullname="AutomationPOC" runstate="Runnable" testcasecount="2" result="Passed" start-time="2017-04-12 11:44:23Z" end-time="2017-04-12 11:46:31Z" duration="127.770660" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="9">
+      <test-suite type="TestSuite" id="0-1010" name="FeatureFiles" fullname="AutomationPOC.FeatureFiles" runstate="Runnable" testcasecount="2" result="Passed" start-time="2017-04-12 11:44:23Z" end-time="2017-04-12 11:46:31Z" duration="127.759260" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="9">
+        <test-suite type="TestFixture" id="0-1001" name="BuyASetPlanFeature" fullname="AutomationPOC.FeatureFiles.BuyASetPlanFeature" classname="AutomationPOC.FeatureFiles.BuyASetPlanFeature" runstate="Runnable" testcasecount="2" result="Passed" start-time="2017-04-12 11:44:23Z" end-time="2017-04-12 11:46:31Z" duration="127.735036" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="9">
+          <properties>
+            <property name="Description" value="Buy A Set Plan" />
+          </properties>
+          <test-suite type="ParameterizedMethod" id="0-1005" name="BuyingASETFuneralPlanUsingDirectDebit" fullname="AutomationPOC.FeatureFiles.BuyASetPlanFeature.BuyingASETFuneralPlanUsingDirectDebit" classname="AutomationPOC.FeatureFiles.BuyASetPlanFeature" runstate="Runnable" testcasecount="1" result="Passed" start-time="2017-04-12 11:44:25Z" end-time="2017-04-12 11:45:29Z" duration="63.769755" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="5">
+            <properties>
+              <property name="Description" value="Buying a SET Funeral Plan using DirectDebit" />
+            </properties>
+            <test-case id="0-1004" name="BuyingASETFuneralPlanUsingDirectDebit(&quot;Chrome&quot;,&quot;SetBurialPlan&quot;,&quot;Simple&quot;,&quot;Mr&quot;,&quot;Holly1&quot;,&quot;Cave&quot;,&quot;Male&quot;,&quot;5&quot;,&quot;January&quot;,&quot;1965&quot;,&quot;A&quot;,&quot;B&quot;,&quot;1234567&quot;,&quot;6.33174913070283E+17&quot;,&quot;password1&quot;,&quot;password1&quot;,&quot;Testing&quot;,&quot;3036&quot;,&quot;7&quot;,&quot;1&quot;,&quot;16&quot;,null)" fullname="AutomationPOC.FeatureFiles.BuyASetPlanFeature.BuyingASETFuneralPlanUsingDirectDebit(&quot;Chrome&quot;,&quot;SetBurialPlan&quot;,&quot;Simple&quot;,&quot;Mr&quot;,&quot;Holly1&quot;,&quot;Cave&quot;,&quot;Male&quot;,&quot;5&quot;,&quot;January&quot;,&quot;1965&quot;,&quot;A&quot;,&quot;B&quot;,&quot;1234567&quot;,&quot;6.33174913070283E+17&quot;,&quot;password1&quot;,&quot;password1&quot;,&quot;Testing&quot;,&quot;3036&quot;,&quot;7&quot;,&quot;1&quot;,&quot;16&quot;,null)" methodname="BuyingASETFuneralPlanUsingDirectDebit" classname="AutomationPOC.FeatureFiles.BuyASetPlanFeature" runstate="Runnable" seed="117909135" result="Passed" start-time="2017-04-12 11:44:25Z" end-time="2017-04-12 11:45:29Z" duration="63.742809" asserts="5">
+              <properties>
+                <property name="Category" value="source:FMPTestData.xlsx:sheet2" />
+              </properties>
+              <output><![CDATA[Given I am on the Home page using Chrome
+-> done: StepDefinition1.GivenIAmOnTheHomePageUsing("Chrome") (16.9s)
+When I click Prepaid Funeral Plan
+-> done: StepDefinition1.WhenIClickPrepaidFuneralPlan() (7.7s)
+And Set Funeral Plan As SetBurialPlan Simple
+-> done: StepDefinition1.WhenSetFuneralPlanAs("SetBurialPlan", "Simple") (10.6s)
+And creates New account and provide user details Mr Holly1 Cave Male 5 January 1965
+-> done: StepDefinition1.WhenCreatesNewAccountAndProvideUserDetails("Mr", "Holly1", "Cave", "Male", "5", "January", "1965") (1.6s)
+And user provides Address Details A B
+-> done: StepDefinition1.WhenUserProvidesAddressDetails("A", "B") (1.0s)
+And provides 1234567 6.33174913070283E+17 password1 password1
+-> done: StepDefinition1.WhenProvides("1234567", "6.33174913070283E+17", "password1", "password1") (15.0s)
+And user provides the Direct-Debit payment Details Testing 3036 7 1 16
+-> done: StepDefinition1.WhenUserProvidesTheDirect_DebitPaymentDetails("Testing", "3036", "7", "1", "16") (9.8s)
+Then Order Confirmation Page is displayed along with the Plan Number
+-> done: StepDefinition1.ThenOrderConfirmationPageIsDisplayedAlongWithThePlanNumber() (0.2s)
+Test Completed Succesfully
+]]></output>
+            </test-case>
+          </test-suite>
+          <test-suite type="ParameterizedMethod" id="0-1003" name="BuyingASETFuneralPlanUsingFMP" fullname="AutomationPOC.FeatureFiles.BuyASetPlanFeature.BuyingASETFuneralPlanUsingFMP" classname="AutomationPOC.FeatureFiles.BuyASetPlanFeature" runstate="Runnable" testcasecount="1" result="Passed" start-time="2017-04-12 11:45:29Z" end-time="2017-04-12 11:46:31Z" duration="62.310055" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="4">
+            <properties>
+              <property name="Description" value="Buying a SET Funeral Plan using FMP" />
+            </properties>
+            <test-case id="0-1002" name="BuyingASETFuneralPlanUsingFMP(&quot;Chrome&quot;,&quot;SetBurialPlan&quot;,&quot;Simple&quot;,&quot;Mr&quot;,&quot;Ben1&quot;,&quot;Cave&quot;,&quot;Male&quot;,&quot;5&quot;,&quot;January&quot;,&quot;1965&quot;,&quot;A&quot;,&quot;B&quot;,&quot;1234567&quot;,&quot;6.33174913070283E+17&quot;,&quot;password1&quot;,&quot;password1&quot;,&quot;Testing&quot;,&quot;3036&quot;,&quot;7&quot;,&quot;1&quot;,&quot;16&quot;,null)" fullname="AutomationPOC.FeatureFiles.BuyASetPlanFeature.BuyingASETFuneralPlanUsingFMP(&quot;Chrome&quot;,&quot;SetBurialPlan&quot;,&quot;Simple&quot;,&quot;Mr&quot;,&quot;Ben1&quot;,&quot;Cave&quot;,&quot;Male&quot;,&quot;5&quot;,&quot;January&quot;,&quot;1965&quot;,&quot;A&quot;,&quot;B&quot;,&quot;1234567&quot;,&quot;6.33174913070283E+17&quot;,&quot;password1&quot;,&quot;password1&quot;,&quot;Testing&quot;,&quot;3036&quot;,&quot;7&quot;,&quot;1&quot;,&quot;16&quot;,null)" methodname="BuyingASETFuneralPlanUsingFMP" classname="AutomationPOC.FeatureFiles.BuyASetPlanFeature" runstate="Runnable" seed="1195004075" result="Passed" start-time="2017-04-12 11:45:29Z" end-time="2017-04-12 11:46:31Z" duration="62.306705" asserts="4">
+              <properties>
+                <property name="Category" value="source:FMPTestData.xlsx:sheet1" />
+              </properties>
+              <output><![CDATA[Given I am on the Home page using Chrome
+-> done: StepDefinition1.GivenIAmOnTheHomePageUsing("Chrome") (19.0s)
+When I click Prepaid Funeral Plan
+-> done: StepDefinition1.WhenIClickPrepaidFuneralPlan() (5.1s)
+And Set Funeral Plan As SetBurialPlan Simple
+-> done: StepDefinition1.WhenSetFuneralPlanAs("SetBurialPlan", "Simple") (16.1s)
+And creates New account and provide user details Mr Ben1 Cave Male 5 January 1965
+-> done: StepDefinition1.WhenCreatesNewAccountAndProvideUserDetails("Mr", "Ben1", "Cave", "Male", "5", "January", "1965") (1.6s)
+And user provides Address Details A B
+-> done: StepDefinition1.WhenUserProvidesAddressDetails("A", "B") (2.1s)
+And provides 1234567 6.33174913070283E+17 password1 password1
+-> done: StepDefinition1.WhenProvides("1234567", "6.33174913070283E+17", "password1", "password1") (11.6s)
+And user provides FMP payment Details Testing <AccountNUmber> 7 <Sortcode2> <Sortcode3>
+-> done: StepDefinition1.WhenUserProvidesFMPPaymentDetails("Testing", "<AccountNUmber>", "7", "<Sortcode2>", "<Sortcode3>") (6.5s)
+Then Order Confirmation Page is displayed along with the Plan Number
+-> done: StepDefinition1.ThenOrderConfirmationPageIsDisplayedAlongWithThePlanNumber() (0.1s)
+Test Completed Succesfully
+]]></output>
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+      <test-suite type="TestSuite" id="0-1009" name="SeleniumGrid" fullname="AutomationPOC.SeleniumGrid" runstate="Runnable" testcasecount="0" result="Passed" start-time="2017-04-12 11:44:23Z" end-time="2017-04-12 11:46:31Z" duration="127.754965" total="0" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <test-suite type="TestFixture" id="0-1000" name="Driver" fullname="AutomationPOC.SeleniumGrid.Driver" classname="AutomationPOC.SeleniumGrid.Driver" runstate="Runnable" testcasecount="0" result="Passed" start-time="2017-04-12 11:46:31Z" end-time="2017-04-12 11:46:31Z" duration="0.000260" total="0" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0" />
+      </test-suite>
+    </test-suite>
+    <test-suite type="TestSuite" id="0-1011" name="OpenURL01" fullname="OpenURL01" runstate="Runnable" testcasecount="0" result="Passed" start-time="2017-04-12 11:44:23Z" end-time="2017-04-12 11:46:31Z" duration="127.806023" total="0" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <test-suite type="TestSuite" id="0-1012" name="GeneralHelpers" fullname="OpenURL01.GeneralHelpers" runstate="Runnable" testcasecount="0" result="Passed" start-time="2017-04-12 11:44:23Z" end-time="2017-04-12 11:46:31Z" duration="127.756231" total="0" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <test-suite type="TestFixture" id="0-1006" name="BasicReport" fullname="OpenURL01.GeneralHelpers.BasicReport" classname="OpenURL01.GeneralHelpers.BasicReport" runstate="Runnable" testcasecount="0" result="Passed" start-time="2017-04-12 11:46:31Z" end-time="2017-04-12 11:46:31Z" duration="0.000269" total="0" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0" />
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

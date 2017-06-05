@@ -1,0 +1,3 @@
+C:\Users\HS\AppData\Local\Android\sdk\tools\bin
+
+UI Automator viewer

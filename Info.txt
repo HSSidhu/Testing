@@ -1,0 +1,4 @@
+Grid works
+Connected my personal laptop and VM
+Data driven from Excel
+3 scenarios to handle Cards, FMP,DD
